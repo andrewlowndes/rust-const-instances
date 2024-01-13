@@ -1,0 +1,8 @@
+[package]
+name = "to-expr-example-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+to-expr-example-lib = { path = "../example_lib" }
+to-expr-example-macro = { path = "../example_macro" }

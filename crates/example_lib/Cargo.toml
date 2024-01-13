@@ -1,0 +1,14 @@
+[package]
+name = "to-expr-example-lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+to-expr-core = { path = "../core" }
+to-expr-macro = { path = "../macro" }
+
+proc-macro2 = "1.0.76"
+quote = "1.0.35"
+syn = "2.0.48"
